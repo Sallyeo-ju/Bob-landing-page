@@ -21,7 +21,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="wrap footer-inner">
         <div className="footer-brand">
-          <Logo />
+          <Logo height={52} />
           <p>
             Analis saham IDX bertenaga AI — menjawab pertanyaanmu dengan data
             real dan bahasa yang mudah dipahami.

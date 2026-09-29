@@ -1,6 +1,6 @@
 import bobLogo from '/bob-logo.png';
 
-export default function Logo({ height = 34 }) {
+export default function Logo({ height = 44 }) {
   return (
     <span className="logo" aria-label="BOB">
       <img
