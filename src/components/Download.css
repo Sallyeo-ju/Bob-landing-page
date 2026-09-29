@@ -1,0 +1,127 @@
+.download {
+  padding-bottom: 96px;
+}
+.download-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--bg-elevated), var(--bg-sunken));
+  border: 1px solid rgba(233, 184, 74, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 52px;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 40px;
+  align-items: center;
+}
+.download-glow {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: rgba(233, 184, 74, 0.16);
+  filter: blur(80px);
+  top: -120px;
+  right: -60px;
+  animation: pulseGlow 8s ease-in-out infinite;
+}
+.download-content {
+  position: relative;
+  z-index: 1;
+}
+.download-title {
+  font-size: clamp(26px, 3.6vw, 38px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1.12;
+  margin-bottom: 14px;
+}
+.download-sub {
+  color: var(--text-on-teal-2);
+  font-size: 17px;
+  max-width: 460px;
+  margin-bottom: 28px;
+}
+.download-cta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.download-btn {
+  padding: 11px 20px;
+  text-align: left;
+  align-items: center;
+}
+.download-btn span:not(.store-mini) {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.download-btn small {
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.download-btn strong {
+  font-size: 15px;
+  font-weight: 800;
+}
+.store-mini {
+  font-size: 18px;
+}
+.download-apk {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text-on-teal-2);
+}
+.download-apk a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.download-qr {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.qr-frame {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 16px;
+  width: 176px;
+  margin: 0 auto;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s var(--ease);
+}
+.qr-frame:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.qr-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  shape-rendering: crispEdges;
+}
+.qr-caption {
+  margin-top: 14px;
+  font-size: 13.5px;
+  color: var(--text-on-teal-2);
+  font-weight: 600;
+}
+
+@media (max-width: 820px) {
+  .download-card {
+    grid-template-columns: 1fr;
+    padding: 36px 26px;
+    text-align: center;
+  }
+  .download-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .download-cta {
+    justify-content: center;
+  }
+}
