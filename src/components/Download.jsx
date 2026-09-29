@@ -1,5 +1,10 @@
 import './Download.css';
 
+// Direct link to the latest APK published as a GitHub Release on the app repo.
+// Always resolves to the newest release asset once it's published.
+export const APK_URL =
+  'https://github.com/CristianPhi/SectorsHackhaton/releases/latest/download/app-release.apk';
+
 export default function Download() {
   return (
     <section id="download" className="download">
@@ -12,27 +17,21 @@ export default function Download() {
               Bawa analis saham AI di sakumu
             </h2>
             <p className="download-sub">
-              Unduh BOB dan mulai bertanya soal saham IDX hari ini. Gratis untuk
-              memulai — tanpa kartu kredit.
+              Unduh BOB dan mulai bertanya soal saham IDX hari ini. Gratis,
+              langsung dari APK — tanpa toko aplikasi.
             </p>
             <div className="download-cta">
-              <a href="#" className="btn btn-primary download-btn">
-                <span className="store-mini">▶</span>
+              <a href={APK_URL} className="btn btn-primary download-btn">
+                <span className="store-mini">↓</span>
                 <span>
-                  <small>Dapatkan di</small>
-                  <strong>Google Play</strong>
-                </span>
-              </a>
-              <a href="#" className="btn btn-light download-btn">
-                <span className="store-mini"></span>
-                <span>
-                  <small>Download di</small>
-                  <strong>App Store</strong>
+                  <small>Untuk Android</small>
+                  <strong>Download APK</strong>
                 </span>
               </a>
             </div>
             <p className="download-apk">
-              Atau <a href="#">unduh APK langsung</a> untuk Android.
+              Android 7.0+ · Aktifkan "Install dari sumber tak dikenal" saat
+              memasang.
             </p>
           </div>
 

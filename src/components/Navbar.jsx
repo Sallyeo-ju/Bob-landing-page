@@ -33,7 +33,11 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="#download" className="btn btn-primary nav-cta">
+          <a
+            href="https://github.com/CristianPhi/SectorsHackhaton/releases/latest/download/app-release.apk"
+            className="btn btn-primary nav-cta"
+            onClick={() => setOpen(false)}
+          >
             Download APK
           </a>
         </div>
