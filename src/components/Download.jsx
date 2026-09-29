@@ -17,8 +17,8 @@ export default function Download() {
               Bawa analis saham AI di sakumu
             </h2>
             <p className="download-sub">
-              Unduh BOB dan mulai bertanya soal saham IDX hari ini. Gratis,
-              langsung dari APK — tanpa toko aplikasi.
+              Unduh BOB dan mulai bertanya soal saham IDX hari ini —
+              langsung dari APK, tanpa toko aplikasi.
             </p>
             <div className="download-cta">
               <a href={APK_URL} className="btn btn-primary download-btn">

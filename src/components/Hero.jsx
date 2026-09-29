@@ -24,7 +24,7 @@ export default function Hero() {
           </p>
           <div className="hero-cta reveal" data-delay="3">
             <a href="#download" className="btn btn-primary">
-              Mulai Gratis
+              Download APK
             </a>
             <a href="#chat" className="btn btn-ghost">
               Lihat Demo ↓
@@ -33,16 +33,16 @@ export default function Hero() {
 
           <div className="hero-stats reveal" data-delay="4">
             <div className="stat">
-              <span className="stat-num">900+</span>
-              <span className="stat-label">Saham IDX</span>
+              <span className="stat-num">IDX</span>
+              <span className="stat-label">Bursa Indonesia</span>
             </div>
             <div className="stat">
-              <span className="stat-num">Real-time</span>
-              <span className="stat-label">Data pasar</span>
+              <span className="stat-num">AI</span>
+              <span className="stat-label">Analisis instan</span>
             </div>
             <div className="stat">
-              <span className="stat-num">24/7</span>
-              <span className="stat-label">Asisten AI</span>
+              <span className="stat-num">Sectors.app</span>
+              <span className="stat-label">Sumber data</span>
             </div>
           </div>
         </div>

@@ -114,6 +114,7 @@ export default function ChatDemo() {
                 <span className="chat-dot" /> online
               </div>
             </div>
+            <span className="chat-demo-tag">Contoh ilustrasi</span>
           </div>
 
           <div className="chat-body" key={step}>

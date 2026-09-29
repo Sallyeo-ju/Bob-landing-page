@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
 
       <div className="wrap footer-bottom">
-        <span>© {new Date().getFullYear()} BOB. Dibuat untuk investor IDX.</span>
+        <span>BOB · Proyek analisis saham IDX</span>
         <span>Data oleh Sectors.app</span>
       </div>
     </footer>
